@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakas Cake Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Fakas Cake Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <h2>Our Featured Product</h2>
+            <section class="product">
+                <h3>Fakas</h3>
+                <p class="price">10 Qatari Riyals</p>
+                <p class="description">Delicious Fakas cake, freshly baked just for you!</p>
+                <button class="buy-button">Buy Now</button>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Fakas Cake Shop. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light Grey Background */
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #f2b900; /* Yellow background */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+    padding: 40px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Product Section */
+.product {
+    background-color: #f0f0f0; /* Light Grey Section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.product h3 {
+    font-size: 24px;
+    color: #f2b900; /* Yellow Text */
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.buy-button {
+    background-color: #f2b900; /* Yellow Button */
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #e39b00; /* Darker Yellow on Hover */
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}document.querySelector('.buy-button').addEventListener('click', function() {
+    alert('Thank you for your purchase of Fakas! We will contact you shortly.');
+});
+document.querySelector('.buy-button').addEventListener('click', function() {
+    alert('Thank you for your purchase of Fakas! We will contact you shortly.');
+});
+
+/cake-shop
+    ├── index.html
+    ├── styles.css
+    └── scripts.js
